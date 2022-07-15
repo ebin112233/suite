@@ -1,5 +1,5 @@
 <?php
-$mysqli = new mysqli("localhost", "root", "password", "test");
+$mysqli = mysqli_connect("localhost", "root", "password", "test");
 if ($mysqli) {
     echo "haiii";
 }
